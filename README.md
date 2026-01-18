@@ -18,3 +18,5 @@ To reproduce the LLaDA-8B-Instruct, Dream-v0-Base-7B and Fast-dLLM-v2-7B results
 This repository contains parts of [Fast-dLLM](https://github.com/NVlabs/Fast-dLLM) and [DAEDAL](https://github.com/Li-Jinsong/DAEDAL). We thank them for their helpful code.
 
 ![overview](img/overview.png)
+
+![case_study](img/case_study.png)
