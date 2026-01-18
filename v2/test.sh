@@ -1,0 +1,1 @@
+accelerate launch --num_machines 1 --mixed_precision no --dynamo_backend no --num_processes 1 eval.py --tasks humaneval --batch_size 1 --confirm_run_unsafe_code --model fast_dllm_v2 --fewshot_as_multiturn --apply_chat_template --model_args model_path=Efficient-Large-Model/Fast_dLLM_v2_7B,use_block_cache=True --output_path evals_results/fd2-humaneval-block --log_samples
